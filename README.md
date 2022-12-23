@@ -17,4 +17,7 @@ The data collected from user is stored in local storage to persist the user data
 Clone this github repository and open users.html file in any web browser.
 
 # Screenshots 
-Project screenshots are added in screenshots folder
+![](https://drive.google.com/file/d/1Y17QvDk6zleWEe3T7SkMq_a7cGVuMY7g/view?usp=sharing)
+![](https://drive.google.com/file/d/12JkMmwC7yXBq6g6ZUxYbS0MDBsq7W44z/view?usp=sharing)
+![](https://drive.google.com/file/d/1L75b5hn7KhItwZQ0XFp_QBEFNkW_U4rG/view?usp=sharing)
+![](https://drive.google.com/file/d/1X90nPWKcYQPJfQYajUFR619GMdygDZ7z/view?usp=sharing)
