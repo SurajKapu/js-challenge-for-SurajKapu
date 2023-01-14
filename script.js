@@ -52,6 +52,17 @@ form.addEventListener('submit', submit)
 
 function submit(event) {
     event.preventDefault()
+    let all_fields_are_valid = validate_details()
+  
+    if(all_fields_are_valid) {
+        store_userdata()
+        update_table()
+        clear_fields()
+        show_status()
+    }
+}
+
+function validate_details() {
     let all_fields_are_valid = true
     all_fields_are_valid &= validate_firstname()
     all_fields_are_valid &= validate_lastname()
@@ -60,13 +71,7 @@ function submit(event) {
     all_fields_are_valid &= validate_address()
     all_fields_are_valid &= validate_phone()
     all_fields_are_valid &= validate_url() 
-  
-    if(all_fields_are_valid) {
-        store_userdata()
-        update_table()
-        clear_fields()
-        show_status()
-    }
+    return all_fields_are_valid
 }
 
 function show_data() {
